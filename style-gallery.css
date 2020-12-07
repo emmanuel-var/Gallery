@@ -17,9 +17,7 @@ body {
 }
 .box-cards {
     width: 100%;
-    padding-bottom: 10px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 .card {
