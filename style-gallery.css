@@ -2,9 +2,7 @@ body {
     margin: 0;
     color: black;
     font-family:verdana;
-}
-header {
-    background-color: blue;
+    background-color: antiquewhite;
 }
 .center {
     display: flex;
@@ -27,8 +25,6 @@ header {
 .card {
     width: 200px;
     height: 300px;
-    border: solid;
-    border-color: blue;
 }
 .img {
     width: 100%;
@@ -66,14 +62,17 @@ header {
     transform-style: preserve-3d;
 }
 .i-9:hover {
-    filter: grayscale(90%);
+    transform:translate(0px,90px);
+    border-radius: 50%;
 }
 .i-10:hover {
-    filter: grayscale(90%);
+    transform:translate(-90px,0px);
 }
 .i-11:hover {
-    filter: grayscale(90%);
+    filter: hue-rotate(90deg);
 }
 .i-12:hover {
-    filter: grayscale(90%);
+    transform:scale(1.4);
+    filter: opacity(0.5);
+    transition: 2s;   
 }
