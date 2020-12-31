@@ -4,16 +4,20 @@ body {
     font-family:verdana;
     background-color: antiquewhite;
 }
-.center {
+header nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 button {
     padding: 10px;
     background-color: transparent;
     border: transparent;
     display: inline-block;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-cards {
     width: 100%;
